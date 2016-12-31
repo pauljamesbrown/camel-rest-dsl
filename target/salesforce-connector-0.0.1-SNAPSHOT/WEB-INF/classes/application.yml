@@ -1,0 +1,12 @@
+
+spring.main.sources: com.demo.salesforce.integration.restlet.salesforce_connector.MySpringBootRouter
+
+camel:
+  springboot:
+    # The Camel context name
+    name: CamelRestJpa
+    
+    # The application configuration properties
+example:
+  generateOrderPeriod: 10s
+  processOrderPeriod: 30s
